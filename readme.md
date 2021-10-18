@@ -1,5 +1,7 @@
 ## Freenove RFID Starter Kit for Raspberry Pi
 
+### NOTE: this repository is just for storing code between multiple devices. Most of this work is **not** mine, nor do I claim it to be.
+
 > A kit for learning Raspberry Pi with C, Python and Java code.
 
 ### Download
