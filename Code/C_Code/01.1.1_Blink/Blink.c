@@ -17,13 +17,15 @@ void main(void)
 	
 	pinMode(ledPin, OUTPUT);//Set the pin mode
 	printf("Using pin%d\n",ledPin);	//Output information on terminal
-	while(1){
+	int loop = 0;
+	while(loop < 10){
 		digitalWrite(ledPin, HIGH);  //Make GPIO output HIGH level
 		printf("led turned on >>>\n");		//Output information on terminal
-		delay(1000);						//Wait for 1 second
+		delay(1000 * loop);						//Wait for 1 second
 		digitalWrite(ledPin, LOW);  //Make GPIO output LOW level
 		printf("led turned off <<<\n");		//Output information on terminal
-		delay(1000);						//Wait for 1 second
+		delay(1000);	
+		loop += 1;					//Wait for 1 second
 	}
 }
 
